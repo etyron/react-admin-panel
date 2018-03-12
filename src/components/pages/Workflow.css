@@ -1,0 +1,9 @@
+.WorkflowPage{
+    margin-top: 120px;
+    padding: 45px 45px 30px 45px;
+    background: #f6f6fa;
+    max-width: 100%;
+    width: calc(100vw - 339px);
+    min-height: calc(100vh - 199px);
+    margin-left: 320px;
+}

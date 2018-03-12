@@ -1,0 +1,112 @@
+.rbc-calendar{
+    min-height: 800px;
+}
+
+.rbc-toolbar{
+    position: relative;
+    justify-content: space-between;
+}
+
+.rbc-toolbar .rbc-toolbar-label{
+    font:500 36px Roboto;
+    color:#0e1a35;
+    position: absolute;
+    left:165px;
+    transform: translateX(-50%);
+}
+
+.rbc-btn-group:first-of-type > button:first-child{
+    display: none;
+}
+
+.rbc-btn-group:first-of-type > button:not(:first-child):not(:last-child){
+    background: url("../../../assets/img/calendar-icon-after.png") no-repeat;
+    background-size: 6px 12px;
+    background-position:0 0;
+    border: none;
+    margin-right: 300px;
+}
+
+.rbc-btn-group:first-of-type > button:not(:first-child):not(:last-child):focus{
+    background: transparent;
+    border: none;
+}
+
+.rbc-btn-group:first-of-type > button:last-child:not(:first-child){
+    background: url("../../../assets/img/calendar-icon.png") no-repeat;
+    background-size: 6px 12px;
+    background-position-y:0;
+    border: none;
+}
+
+.rbc-day-bg {
+    background: #fff;
+}
+
+.rbc-today{
+    background: #f6f7fa;
+}
+
+.rbc-date-cell{
+    text-align: left;
+    font:400 16px Roboto;
+    color:#0e1a35;
+    padding-right: 0;
+    padding-left: 30px;
+    padding-top: 22px;
+}
+
+.rbc-month-view{
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+}
+
+.rbc-off-range-bg{
+    background-color: rgba(218, 218, 218, 0.38) !important;
+    opacity: 0.5;
+}
+
+.rbc-event{
+    background-color: #f6f7fa!important;
+    padding: 10px!important;
+    border-radius: 0!important;
+    border-left: 5px solid #5384ff;
+    color: #0d172e!important;
+}
+
+.rbc-selected{
+    border-left: 5px solid #f83c7b;
+}
+
+.rbc-date-cell{
+    padding: 20px!important;
+    text-align: left!important;
+}
+
+.rbc-month-view .rbc-header{
+    border-bottom: none;
+}
+
+.rbc-header span{
+    font: bold 1rem 'Roboto', sans-serif;
+    color:#0e1a35;
+    padding: 25px 0;
+    display: inline-block;
+}
+
+.rbc-month-row{
+    border-top: 1px solid #e4e4e4;
+}
+
+.rbc-date-cell.rbc-off-range a{
+    color:#8492af;
+}
+
+.rbc-btn-group:last-of-type > button:nth-last-child(2){
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.rbc-btn-group:last-of-type > button:last-child{
+    display:none;
+}
